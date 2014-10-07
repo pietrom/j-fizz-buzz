@@ -1,0 +1,14 @@
+"Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead
+ of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three 
+ and five print “FizzBuzz”."
+
+ALREADY IMLPEMENTED
+- program should print numbers from 1 to 100
+ 
+TO BE IMPLEMENTED
+- program should print "Fizz" instead of the number for multiples of three
+- program should print "Buzz" instead of the number for multiples of five
+- program should print "FizzBuzz" instead of the number for multiples of both three and five
+- both values 1 and 100 should be parameterized instead of hardcoded constants
+- both values 3 and 5 should be parameterized instead of hardcoded constants
+- both values "Fizz" and "Buzz" should be parameterized instead of hardcoded constants
