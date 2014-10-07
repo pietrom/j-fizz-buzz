@@ -16,4 +16,18 @@ public class SuperFizzBuzzTest {
 		assertEquals("49", items[39]);
 		assertEquals("Buzz", items[40]);
 	}
+	
+	@Test
+	public void customTestValues() throws Exception {
+		final String result = new FizzBuzz(2, 7).buildOutput(10, 50);
+		System.out.println(result);
+		final String[] items = result.split(" ");
+		assertEquals(41, items.length);
+		assertEquals("Fizz", items[0]);
+		assertEquals("11", items[1]);
+		assertEquals("Fizz", items[2]);
+		assertEquals("43", items[33]);
+		assertEquals("Buzz", items[39]);
+		assertEquals("Fizz", items[40]);
+	}
 }
