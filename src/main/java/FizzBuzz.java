@@ -1,6 +1,5 @@
 public class FizzBuzz {
-	@Override
-	public String toString() {
+	public String buildOutput() {
 		final StringBuilder sb = new StringBuilder();
 		for (int i = 1; i <= 100; i++) {
 			if(isMultipleOfBothThreeAndFive(i)) {
