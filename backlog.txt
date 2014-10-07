@@ -4,9 +4,9 @@
 
 ALREADY IMLPEMENTED
 - program should print numbers from 1 to 100
+- program should print "Fizz" instead of the number for multiples of three
  
 TO BE IMPLEMENTED
-- program should print "Fizz" instead of the number for multiples of three
 - program should print "Buzz" instead of the number for multiples of five
 - program should print "FizzBuzz" instead of the number for multiples of both three and five
 - both values 1 and 100 should be parameterized instead of hardcoded constants

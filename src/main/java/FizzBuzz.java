@@ -3,8 +3,17 @@ public class FizzBuzz {
 	public String toString() {
 		final StringBuilder sb = new StringBuilder();
 		for (int i = 1; i <= 100; i++) {
-			sb.append(i).append(" ");
+			if(isMultipleOfThree(i)) {
+				sb.append("Fizz");
+			} else {
+				sb.append(i);
+			}
+			sb.append(" ");
 		}
 		return sb.toString();
+	}
+
+	private boolean isMultipleOfThree(int i) {
+		return i % 3 == 0;
 	}
 }
