@@ -8,7 +8,7 @@ ALREADY IMLPEMENTED
 - program should print "Buzz" instead of the number for multiples of five
 - program should print "FizzBuzz" instead of the number for multiples of both three and five
 - both values 1 and 100 should be parameterized instead of hardcoded constants
- 
-TO BE IMPLEMENTED
 - both values 3 and 5 should be parameterized instead of hardcoded constants
 - both values "Fizz" and "Buzz" should be parameterized instead of hardcoded constants
+ 
+TO BE IMPLEMENTED
